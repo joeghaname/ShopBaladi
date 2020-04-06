@@ -13,3 +13,5 @@ Features include:
 - Placing an order functionality
 - Payment/shipping management
 - Dynamic stock management including "Add a Product" for Administrator user
+
+ShopBaladi is currently hosted on elghanaj.myweb.cs.uwindsor.ca/comp2707/assignments/finalproject/index.php
