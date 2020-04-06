@@ -70,13 +70,13 @@
       $username = "elghanaj_shop";
       $password = "douma123";
       $dbname = "elghanaj_shop";
-  
+
       // Create connection
       $conn = new mysqli($servername, $username, $password, $dbname);
       // Check connection
       if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
-      } 
+      }
 
       $result = $conn->query("SELECT MAX(oid) FROM ORDERS WHERE email='$email'");
       $row = $result->fetch_row();
@@ -86,7 +86,7 @@
       $row2 = $result2->fetch_row();
 
       $itemcount = $row2[0];
-      
+
       echo "
       <div class='spinner-border text-success loader' role='status'>
       <span class='sr-only'>Loading...</span>
@@ -96,7 +96,7 @@
       &nbsp;
       <a class='btn btn-success' href='cart.php' role='button'>  Cart <span class='badge badge-light'>" . $itemcount . "</span></a>";
     }
-    ?>    
+    ?>
     </form>
     <!--
     <form class="form-inline my-2 my-lg-0">
@@ -188,7 +188,7 @@
     });
   }
   </script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-JercFG0-Fq8zQcx3X8Xf5KKQSGt7BgU&callback=initMap" async defer></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap" async defer></script>
 
 <!-- FOOTER STARTS -->
 <footer class="footer mt-auto py-3">
