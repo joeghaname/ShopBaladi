@@ -1,0 +1,59 @@
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+}
+/*
+#mbackground {
+  background-image: url("../images/sun.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#abackground {
+  background-image: url("../images/douma3.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+*/
+.centertext {
+  text-align: center;
+}
+
+.centerposition {
+  position: relative;
+}
+
+/* Image Zoom CSS */
+
+.zoom {
+  transition: transform .2s;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.1); 
+}
+
+/* Google Maps CSS */ 
+
+#map {
+  height: 100%;
+}
+
+.centered {
+  position: fixed; /* or absolute */
+  top: 50%;
+  left: 50%;
+}
