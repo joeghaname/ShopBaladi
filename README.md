@@ -14,4 +14,4 @@ Features include:
 - Payment/shipping management
 - Dynamic stock management including "Add a Product" for Administrator user
 
-ShopBaladi is currently hosted on http://www.elghanaj.myweb.cs.uwindsor.ca/comp2707/assignments/finalproject/index.php
+ShopBaladi is currently hosted on http://elghanaj.myweb.cs.uwindsor.ca/shopbaladi/
